@@ -388,7 +388,7 @@
             </div>
           </div>
           <p class="text-neutral-700 mb-4">
-            "Smart Click delivered our AI analytics platform in half the time
+            "NovoProg delivered our AI analytics platform in half the time
             and at 40% less cost than we budgeted. The quality exceeded our
             expectations."
           </p>
@@ -438,7 +438,7 @@
             </div>
           </div>
           <p class="text-neutral-700 mb-4">
-            "The quality of work from Smart Click was outstanding. Their project
+            "The quality of work from NovoProg was outstanding. Their project
             management ensured smooth communication while their development team
             delivered excellent code."
           </p>
