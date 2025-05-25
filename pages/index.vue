@@ -677,7 +677,7 @@
                 <div>
                   <h4 class="font-medium">Address</h4>
                   <p class="text-gray-800">
-                    123 Innovation Drive, Tech Park<br />San Francisco, CA 94103
+                    2415 Holly ln<br />Ottawa, ON Canada
                   </p>
                 </div>
               </div>
@@ -688,7 +688,7 @@
                 </div>
                 <div>
                   <h4 class="font-medium">Phone</h4>
-                  <p class="text-gray-800">+1 (555) 123-4567</p>
+                  <p class="text-gray-800">+1 (819) 329-6620</p>
                 </div>
               </div>
 
