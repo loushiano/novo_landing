@@ -7,7 +7,7 @@
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center py-4">
         <div class="flex items-center">
-          <img src="/novo-logo-bg.png" alt="NovoProg" class="h-12" />
+          <img src="/novo-old.png" alt="NovoProg" class="h-14" />
         </div>
 
         <!-- Desktop Navigation -->

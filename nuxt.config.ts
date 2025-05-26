@@ -22,7 +22,7 @@ export default defineNuxtConfig({
         { name: 'description', content: 'Experience the future of digital solutions with our cutting-edge platform.' }
       ],
       link: [
-        { rel: 'icon', type: 'image/png', href: '/novo-favi.png' }
+        { rel: 'icon', type: 'image/png', href: '/favi-novo.png' }
       ]
     },
     
