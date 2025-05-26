@@ -15,14 +15,14 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'Your Next Generation Platform',
+      title: 'NovoProg - Software Solutions',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'description', content: 'Experience the future of digital solutions with our cutting-edge platform.' }
       ],
       link: [
-        { rel: 'icon', type: 'image/png', href: 'https://d22m7af16es7fs.cloudfront.net/smrt-logo.png' }
+        { rel: 'icon', type: 'image/png', href: '/novo-favi.png' }
       ]
     },
     

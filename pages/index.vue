@@ -7,9 +7,7 @@
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center py-4">
         <div class="flex items-center">
-          <span class="text-2xl font-bold text-primary cursor-pointer"
-            >Novoprog</span
-          >
+          <img src="/novo-logo-bg.png" alt="NovoProg" class="h-12" />
         </div>
 
         <!-- Desktop Navigation -->
@@ -254,7 +252,11 @@
             class="relative flex flex-col md:flex-row items-center"
           >
             <div class="md:w-1/2 md:pr-12 mb-8 md:mb-0 md:text-right">
-              <div class="bg-white p-6 rounded-lg shadow-md inline-block">
+              <div class="bg-white p-6 rounded-lg shadow-md inline-block relative">
+                <!-- Mobile number badge -->
+                <div class="md:hidden absolute -top-4 -left-4 bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center text-base font-bold shadow-lg">
+                  1
+                </div>
                 <div class="text-primary text-3xl mb-4">
                   <i class="fa-solid fa-lightbulb"></i>
                 </div>
@@ -267,7 +269,7 @@
             </div>
 
             <div
-              class="md:absolute md:left-1/2 md:transform md:-translate-x-1/2 z-10 bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold shadow-lg"
+              class="md:absolute md:left-1/2 md:transform md:-translate-x-1/2 z-10 bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold shadow-lg hidden md:flex"
             >
               1
             </div>
@@ -283,13 +285,17 @@
             <div class="md:w-1/2 md:pr-12 hidden md:block"></div>
 
             <div
-              class="md:absolute md:left-1/2 md:transform md:-translate-x-1/2 z-10 bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold shadow-lg"
+              class="md:absolute md:left-1/2 md:transform md:-translate-x-1/2 z-10 bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold shadow-lg hidden md:flex"
             >
               2
             </div>
 
             <div class="md:w-1/2 md:pl-12 mb-8 md:mb-0">
-              <div class="bg-white p-6 rounded-lg shadow-md inline-block">
+              <div class="bg-white p-6 rounded-lg shadow-md inline-block relative">
+                <!-- Mobile number badge -->
+                <div class="md:hidden absolute -top-4 -left-4 bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center text-base font-bold shadow-lg">
+                  2
+                </div>
                 <div class="text-primary text-3xl mb-4">
                   <i class="fa-solid fa-wand-magic-sparkles"></i>
                 </div>
@@ -310,7 +316,11 @@
             class="relative flex flex-col md:flex-row items-center md:mt-24"
           >
             <div class="md:w-1/2 md:pr-12 mb-8 md:mb-0 md:text-right">
-              <div class="bg-white p-6 rounded-lg shadow-md inline-block">
+              <div class="bg-white p-6 rounded-lg shadow-md inline-block relative">
+                <!-- Mobile number badge -->
+                <div class="md:hidden absolute -top-4 -left-4 bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center text-base font-bold shadow-lg">
+                  3
+                </div>
                 <div class="text-primary text-3xl mb-4">
                   <i class="fa-solid fa-code-branch"></i>
                 </div>
@@ -325,7 +335,7 @@
             </div>
 
             <div
-              class="md:absolute md:left-1/2 md:transform md:-translate-x-1/2 z-10 bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold shadow-lg"
+              class="md:absolute md:left-1/2 md:transform md:-translate-x-1/2 z-10 bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold shadow-lg hidden md:flex"
             >
               3
             </div>
@@ -341,13 +351,17 @@
             <div class="md:w-1/2 md:pr-12 hidden md:block"></div>
 
             <div
-              class="md:absolute md:left-1/2 md:transform md:-translate-x-1/2 z-10 bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold shadow-lg"
+              class="md:absolute md:left-1/2 md:transform md:-translate-x-1/2 z-10 bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold shadow-lg hidden md:flex"
             >
               4
             </div>
 
             <div class="md:w-1/2 md:pl-12">
-              <div class="bg-white p-6 rounded-lg shadow-md inline-block">
+              <div class="bg-white p-6 rounded-lg shadow-md inline-block relative">
+                <!-- Mobile number badge -->
+                <div class="md:hidden absolute -top-4 -left-4 bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center text-base font-bold shadow-lg">
+                  4
+                </div>
                 <div class="text-primary text-3xl mb-4">
                   <i class="fa-solid fa-rocket"></i>
                 </div>
