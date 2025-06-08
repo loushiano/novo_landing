@@ -27,7 +27,11 @@
             class="text-gray-600 hover:text-primary transition-colors cursor-pointer"
             >Testimonials</a
           >
-
+          <!-- <a
+            href="#pricing"
+            class="text-gray-600 hover:text-primary transition-colors cursor-pointer"
+            >Pricing</a
+          > -->
           <a
             href="#faq"
             class="text-gray-600 hover:text-primary transition-colors cursor-pointer"
@@ -70,9 +74,9 @@
           >How It Works</a
         >
         <a
-          href="#case-studies"
+          href="#testimonials-section"
           class="block py-2 text-gray-600 hover:text-primary cursor-pointer"
-          >Case Studies</a
+          >Testimonials</a
         >
         <a
           href="#pricing"
@@ -138,36 +142,42 @@
         </p>
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto"
+      >
         <!-- Service Card 1 -->
         <div
           id="service-card-1"
-          class="bg-white rounded-lg shadow-md hover:shadow-lg p-6 md:p-8 transition-all duration-300"
+          class="group bg-white rounded-xl shadow-lg hover:shadow-2xl p-8 transition-all duration-500 transform hover:-translate-y-2 border border-gray-100 hover:border-primary/20"
         >
-          <div class="text-primary text-4xl mb-6">
+          <div
+            class="text-primary text-5xl mb-6 group-hover:scale-110 transition-transform duration-300"
+          >
             <i class="fa-solid fa-code"></i>
           </div>
-          <h3 class="text-xl md:text-2xl font-bold mb-4">
+          <h3 class="text-xl md:text-2xl font-bold mb-4 text-gray-800">
             Custom Software Development
           </h3>
-          <p class="text-gray-600">
+          <p class="text-gray-600 leading-relaxed">
             Tailored software solutions designed to address your unique business
-            challenges and opportunities.
+            challenges and opportunities with cutting-edge technology.
           </p>
         </div>
 
         <!-- Service Card 2 -->
         <div
           id="service-card-2"
-          class="bg-white rounded-lg shadow-md hover:shadow-lg p-6 md:p-8 transition-all duration-300"
+          class="group bg-white rounded-xl shadow-lg hover:shadow-2xl p-8 transition-all duration-500 transform hover:-translate-y-2 border border-gray-100 hover:border-primary/20"
         >
-          <div class="text-primary text-4xl mb-6">
+          <div
+            class="text-primary text-5xl mb-6 group-hover:scale-110 transition-transform duration-300"
+          >
             <i class="fa-solid fa-robot"></i>
           </div>
-          <h3 class="text-xl md:text-2xl font-bold mb-4">
+          <h3 class="text-xl md:text-2xl font-bold mb-4 text-gray-800">
             AI Agents & Intelligent Systems
           </h3>
-          <p class="text-gray-600">
+          <p class="text-gray-600 leading-relaxed">
             Build custom AI agents that automate complex tasks, make intelligent
             decisions, and integrate seamlessly with your existing workflows to
             boost productivity.
@@ -177,32 +187,36 @@
         <!-- Service Card 3 -->
         <div
           id="service-card-3"
-          class="bg-white rounded-lg shadow-md hover:shadow-lg p-6 md:p-8 transition-all duration-300"
+          class="group bg-white rounded-xl shadow-lg hover:shadow-2xl p-8 transition-all duration-500 transform hover:-translate-y-2 border border-gray-100 hover:border-primary/20"
         >
-          <div class="text-primary text-4xl mb-6">
+          <div
+            class="text-primary text-5xl mb-6 group-hover:scale-110 transition-transform duration-300"
+          >
             <i class="fa-solid fa-gears"></i>
           </div>
-          <h3 class="text-xl md:text-2xl font-bold mb-4">
-            Workflow Automation &amp; Integration
+          <h3 class="text-xl md:text-2xl font-bold mb-4 text-gray-800">
+            Workflow Automation & Integration
           </h3>
-          <p class="text-gray-600">
+          <p class="text-gray-600 leading-relaxed">
             Streamline operations by connecting your systems and automating
-            repetitive tasks for maximum efficiency.
+            repetitive tasks for maximum efficiency and cost savings.
           </p>
         </div>
 
         <!-- Service Card 4 -->
         <div
           id="service-card-4"
-          class="bg-white rounded-lg shadow-md hover:shadow-lg p-6 md:p-8 transition-all duration-300"
+          class="group bg-white rounded-xl shadow-lg hover:shadow-2xl p-8 transition-all duration-500 transform hover:-translate-y-2 border border-gray-100 hover:border-primary/20"
         >
-          <div class="text-primary text-4xl mb-6">
+          <div
+            class="text-primary text-5xl mb-6 group-hover:scale-110 transition-transform duration-300"
+          >
             <i class="fa-solid fa-plug"></i>
           </div>
-          <h3 class="text-xl md:text-2xl font-bold mb-4">
+          <h3 class="text-xl md:text-2xl font-bold mb-4 text-gray-800">
             AI Integration Services
           </h3>
-          <p class="text-gray-600">
+          <p class="text-gray-600 leading-relaxed">
             Seamlessly integrate AI capabilities into your existing systems,
             from ChatGPT APIs to custom machine learning models.
           </p>
@@ -211,19 +225,42 @@
         <!-- Service Card 5 -->
         <div
           id="service-card-5"
-          class="bg-white rounded-lg shadow-md hover:shadow-lg p-6 md:p-8 transition-all duration-300"
+          class="group bg-white rounded-xl shadow-lg hover:shadow-2xl p-8 transition-all duration-500 transform hover:-translate-y-2 border border-gray-100 hover:border-primary/20"
         >
-          <div class="text-primary text-4xl mb-6">
+          <div
+            class="text-primary text-5xl mb-6 group-hover:scale-110 transition-transform duration-300"
+          >
             <i class="fa-solid fa-lightbulb"></i>
           </div>
-          <h3 class="text-xl md:text-2xl font-bold mb-4">
+          <h3 class="text-xl md:text-2xl font-bold mb-4 text-gray-800">
             AI Strategy Consulting
           </h3>
-          <p class="text-gray-600">
+          <p class="text-gray-600 leading-relaxed">
             Get expert guidance on how AI can transform your business processes,
             reduce costs, and create new revenue opportunities.
           </p>
         </div>
+
+        <!-- Service Card 6 - SEO Services -->
+        <div
+          id="service-card-6"
+          class="group bg-white rounded-xl shadow-lg hover:shadow-2xl p-8 transition-all duration-500 transform hover:-translate-y-2 border border-gray-100 hover:border-primary/20"
+        >
+          <div
+            class="text-primary text-5xl mb-6 group-hover:scale-110 transition-transform duration-300"
+          >
+            <i class="fa-solid fa-search"></i>
+          </div>
+          <h3 class="text-xl md:text-2xl font-bold mb-4 text-gray-800">
+            SEO & Digital Marketing
+          </h3>
+          <p class="text-gray-600 leading-relaxed">
+            Boost your online visibility with comprehensive SEO strategies,
+            content optimization, and data-driven digital marketing campaigns.
+          </p>
+        </div>
+
+        <!-- Service Card 7 - Web Design -->
       </div>
     </div>
   </section>
@@ -252,9 +289,13 @@
             class="relative flex flex-col md:flex-row items-center"
           >
             <div class="md:w-1/2 md:pr-12 mb-8 md:mb-0 md:text-right">
-              <div class="bg-white p-6 rounded-lg shadow-md inline-block relative">
+              <div
+                class="bg-white p-6 rounded-lg shadow-md inline-block relative"
+              >
                 <!-- Mobile number badge -->
-                <div class="md:hidden absolute -top-4 -left-4 bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center text-base font-bold shadow-lg">
+                <div
+                  class="md:hidden absolute -top-4 -left-4 bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center text-base font-bold shadow-lg"
+                >
                   1
                 </div>
                 <div class="text-primary text-3xl mb-4">
@@ -291,9 +332,13 @@
             </div>
 
             <div class="md:w-1/2 md:pl-12 mb-8 md:mb-0">
-              <div class="bg-white p-6 rounded-lg shadow-md inline-block relative">
+              <div
+                class="bg-white p-6 rounded-lg shadow-md inline-block relative"
+              >
                 <!-- Mobile number badge -->
-                <div class="md:hidden absolute -top-4 -left-4 bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center text-base font-bold shadow-lg">
+                <div
+                  class="md:hidden absolute -top-4 -left-4 bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center text-base font-bold shadow-lg"
+                >
                   2
                 </div>
                 <div class="text-primary text-3xl mb-4">
@@ -316,9 +361,13 @@
             class="relative flex flex-col md:flex-row items-center md:mt-24"
           >
             <div class="md:w-1/2 md:pr-12 mb-8 md:mb-0 md:text-right">
-              <div class="bg-white p-6 rounded-lg shadow-md inline-block relative">
+              <div
+                class="bg-white p-6 rounded-lg shadow-md inline-block relative"
+              >
                 <!-- Mobile number badge -->
-                <div class="md:hidden absolute -top-4 -left-4 bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center text-base font-bold shadow-lg">
+                <div
+                  class="md:hidden absolute -top-4 -left-4 bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center text-base font-bold shadow-lg"
+                >
                   3
                 </div>
                 <div class="text-primary text-3xl mb-4">
@@ -357,9 +406,13 @@
             </div>
 
             <div class="md:w-1/2 md:pl-12">
-              <div class="bg-white p-6 rounded-lg shadow-md inline-block relative">
+              <div
+                class="bg-white p-6 rounded-lg shadow-md inline-block relative"
+              >
                 <!-- Mobile number badge -->
-                <div class="md:hidden absolute -top-4 -left-4 bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center text-base font-bold shadow-lg">
+                <div
+                  class="md:hidden absolute -top-4 -left-4 bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center text-base font-bold shadow-lg"
+                >
                   4
                 </div>
                 <div class="text-primary text-3xl mb-4">
@@ -402,8 +455,8 @@
             </div>
           </div>
           <p class="text-neutral-700 mb-4">
-            "NovoProg delivered our AI analytics platform in half the time
-            and at 40% less cost than we budgeted. The quality exceeded our
+            "NovoProg delivered our AI analytics platform in half the time and
+            at 40% less cost than we budgeted. The quality exceeded our
             expectations."
           </p>
           <div class="flex">
@@ -469,6 +522,174 @@
   </section>
 
   <!-- Pricing Section -->
+  <!-- <section
+    id="pricing"
+    class="py-20 bg-gradient-to-br from-gray-900 via-primary to-indigo-900"
+  >
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white">
+          Choose Your Plan
+        </h2>
+        <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+          Flexible pricing options designed to scale with your business needs
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div
+          class="bg-white rounded-2xl shadow-2xl p-8 relative transform hover:-translate-y-2 transition-all duration-300"
+        >
+          <div class="text-center">
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">Starter</h3>
+            <div class="mb-6">
+              <span class="text-5xl font-bold text-primary">$2,500</span>
+              <span class="text-lg text-gray-600">/project</span>
+            </div>
+            <p class="text-gray-600 mb-8">
+              Perfect for small businesses getting started
+            </p>
+          </div>
+
+          <ul class="space-y-4 mb-8">
+            <li class="flex items-center">
+              <i class="fa-solid fa-check text-green-500 mr-3"></i>
+              <span class="text-gray-700">Basic web development</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-check text-green-500 mr-3"></i>
+              <span class="text-gray-700">Responsive design</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-check text-green-500 mr-3"></i>
+              <span class="text-gray-700">SEO optimization</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-check text-green-500 mr-3"></i>
+              <span class="text-gray-700">30 days support</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-check text-green-500 mr-3"></i>
+              <span class="text-gray-700">Basic integrations</span>
+            </li>
+          </ul>
+
+          <button
+            class="w-full py-3 px-6 bg-gray-800 text-white font-medium rounded-lg hover:bg-gray-900 transition-colors"
+          >
+            Get Started
+          </button>
+        </div>
+
+        <div
+          class="bg-white rounded-2xl shadow-2xl p-8 relative transform hover:-translate-y-2 transition-all duration-300 border-4 border-primary"
+        >
+          <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
+            <span
+              class="bg-primary text-white px-6 py-2 rounded-full text-sm font-semibold"
+            >
+              Most Popular
+            </span>
+          </div>
+
+          <div class="text-center">
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">Professional</h3>
+            <div class="mb-6">
+              <span class="text-5xl font-bold text-primary">$5,000</span>
+              <span class="text-lg text-gray-600">/project</span>
+            </div>
+            <p class="text-gray-600 mb-8">
+              Ideal for growing businesses with advanced needs
+            </p>
+          </div>
+
+          <ul class="space-y-4 mb-8">
+            <li class="flex items-center">
+              <i class="fa-solid fa-check text-green-500 mr-3"></i>
+              <span class="text-gray-700">Custom software development</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-check text-green-500 mr-3"></i>
+              <span class="text-gray-700">AI integration</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-check text-green-500 mr-3"></i>
+              <span class="text-gray-700">Advanced SEO & marketing</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-check text-green-500 mr-3"></i>
+              <span class="text-gray-700">90 days support</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-check text-green-500 mr-3"></i>
+              <span class="text-gray-700">API integrations</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-check text-green-500 mr-3"></i>
+              <span class="text-gray-700">Performance optimization</span>
+            </li>
+          </ul>
+
+          <button
+            class="w-full py-3 px-6 bg-primary text-white font-medium rounded-lg hover:bg-indigo-600 transition-colors"
+          >
+            Get Started
+          </button>
+        </div>
+
+        <div
+          class="bg-white rounded-2xl shadow-2xl p-8 relative transform hover:-translate-y-2 transition-all duration-300"
+        >
+          <div class="text-center">
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">Enterprise</h3>
+            <div class="mb-6">
+              <span class="text-5xl font-bold text-primary">$10,000</span>
+              <span class="text-lg text-gray-600">+</span>
+            </div>
+            <p class="text-gray-600 mb-8">
+              Complete solutions for large organizations
+            </p>
+          </div>
+
+          <ul class="space-y-4 mb-8">
+            <li class="flex items-center">
+              <i class="fa-solid fa-check text-green-500 mr-3"></i>
+              <span class="text-gray-700">Custom AI agents</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-check text-green-500 mr-3"></i>
+              <span class="text-gray-700">Enterprise integrations</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-check text-green-500 mr-3"></i>
+              <span class="text-gray-700">Dedicated project manager</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-check text-green-500 mr-3"></i>
+              <span class="text-gray-700">Priority support</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-check text-green-500 mr-3"></i>
+              <span class="text-gray-700">Advanced analytics</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-check text-green-500 mr-3"></i>
+              <span class="text-gray-700">Custom SLA</span>
+            </li>
+          </ul>
+
+          <button
+            class="w-full py-3 px-6 bg-gray-800 text-white font-medium rounded-lg hover:bg-gray-900 transition-colors"
+          >
+            Contact Sales
+          </button>
+        </div>
+      </div>
+
+   
+   
+    </div>
+  </section> -->
 
   <!-- FAQ Section -->
   <section id="faq" class="py-20 bg-gray-50">
